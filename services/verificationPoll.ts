@@ -31,7 +31,7 @@ export function startVerificationPoll(options: VerificationPollOptions): () => v
         const res = await fetch(url);
         if (!res.ok) return;
         const data = await res.json();
-        if (data?.verified === true) {
+        if (data?.verified === true || data?.status === 'paid') {
           onVerified();
         }
       } catch {
