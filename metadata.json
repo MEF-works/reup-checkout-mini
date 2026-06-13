@@ -1,0 +1,5 @@
+{
+  "name": "AltPay Nexus Demo",
+  "description": "An interactive, aesthetic demo of a friction-free, merchant-owned checkout system for alternative markets. Features dynamic customization via Gemini API.",
+  "requestFramePermissions": []
+}
